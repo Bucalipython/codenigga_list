@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3481eab2-9828-4e6c-aecd-1bb2eae37b9d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codenigga_list.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1fq00xWNGI6NinEa20YMszGw4Oj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\github\codenigga_list\templates" />
+      <recent name="C:\Users\HP\github\codenigga_list\static" />
+      <recent name="C:\Users\HP\github\codenigga_list\static\css" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3481eab2-9828-4e6c-aecd-1bb2eae37b9d" name="Default Changelist" comment="" />
+      <created>1596930095995</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596930095995</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="658" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597180258572">
+      <screen x="0" y="0" width="1750" height="1080" />
+    </state>
+    <state x="658" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1750.1080@0.0.1750.1080" timestamp="1597180258572" />
+    <state x="1092" y="295" key="FileChooserDialogImpl" timestamp="1597114751129">
+      <screen x="0" y="0" width="1750" height="1080" />
+    </state>
+    <state x="1092" y="295" key="FileChooserDialogImpl/0.0.1750.1080@0.0.1750.1080" timestamp="1597114751129" />
+    <state x="1136" y="459" key="Github.CreateGistDialog" timestamp="1596929888288">
+      <screen x="0" y="0" width="1750" height="1080" />
+    </state>
+    <state x="1136" y="459" key="Github.CreateGistDialog/0.0.1750.1080/1920.0.1366.738@0.0.1750.1080" timestamp="1596929888288" />
+    <state x="752" y="156" key="SettingsEditor" timestamp="1596930183512">
+      <screen x="0" y="0" width="1750" height="1080" />
+    </state>
+    <state x="752" y="156" key="SettingsEditor/0.0.1750.1080/1920.0.1366.738@0.0.1750.1080" timestamp="1596930183512" />
+    <state x="874" y="273" key="Vcs.Push.Dialog.v2" timestamp="1597180224291">
+      <screen x="0" y="0" width="1750" height="1080" />
+    </state>
+    <state x="874" y="273" key="Vcs.Push.Dialog.v2/0.0.1750.1080@0.0.1750.1080" timestamp="1597180224291" />
+    <state x="1100" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597180243722">
+      <screen x="0" y="0" width="1750" height="1080" />
+    </state>
+    <state x="1100" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1750.1080@0.0.1750.1080" timestamp="1597180243722" />
+    <state x="945" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1597181188832">
+      <screen x="0" y="0" width="1750" height="1080" />
+    </state>
+    <state x="945" y="239" width="672" height="678" key="search.everywhere.popup/0.0.1750.1080@0.0.1750.1080" timestamp="1597181188832" />
+  </component>
+</project>

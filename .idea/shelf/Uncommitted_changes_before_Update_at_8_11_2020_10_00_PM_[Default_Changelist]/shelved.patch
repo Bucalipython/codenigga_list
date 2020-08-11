@@ -1,0 +1,162 @@
+Index: style.css
+===================================================================
+--- style.css	(revision f8fd337ee84977a8bf12afd36eae085530453d4a)
++++ static/css/style.css	(date 1597181110917)
+@@ -1,0 +1,2 @@
++
++
+Index: templates/base.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <title>codenigga list</title>\r\n</head>\r\n<body>\r\n<h2>Testing to see if works!</h2>\r\n</body>\r\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- templates/base.html	(revision f8fd337ee84977a8bf12afd36eae085530453d4a)
++++ templates/base.html	(date 1597181879495)
+@@ -1,10 +1,57 @@
+-<!DOCTYPE html>
++{% load static %}
++
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <title>codenigga list</title>
++     <meta charset="UTF-8"/>
++    <meta name="viewport" content="width=device-width, initial-scale=1"/>
++    <link rel="stylesheet" href="{% static "css/>style.css" %}">
++    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
++    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
++
+ </head>
+ <body>
+-<h2>Testing to see if works!</h2>
++<nav>
++    <div class="container nav-wrapper">
++        <a href="/" class="brand-logo">Codenigga List</a>
++        <ul id="nav-mobile" class="right">
++            <li><a href="/">Home</a></li>
++        </ul>
++    </div>
++</nav>
++
++
++<h2 style="text-align: center">Mpa Kedu ihe ina acho na Codenigga List</h2>
++<div class="row">
++    <div class="col s4">
++        <!--promo content 1 goes here -->
++        <div class="center">
++        <i class="large material-icons" style="color: #EE6E73">flash_on</i>
++            <p>Fast craigslist web scraper</p>
++        <p class="light center">scrape away right here with beautigul GUI.</p>
++        </div>
++    </div>
++
++    <div class="col s4">
++        <!--content 2 goes here -->
++        <div class="center">
++            <i class="large material-icons" style="color: orange">camera</i>
++            <p>Filter your searches</p>
++            <p class="light center">We built in functionality to filter based on pricing.</p>
++        </div>
++    </div>
++
++    <div class="col s4">
++        <!-- content 3 goes here-->
++         <div class="center">
++                <i class="large material-icons" style="color: blue">chrome_reader_mode</i>
++                <p>A much sexier front-end to craiglist</p>
++                <p class="light center">I built this with Love</p>
++         </div>
++    </div>
++
++</div>
++
+ </body>
+-</html>
+\ No newline at end of file
++</html>
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/vcs.xml	(date 1597114588837)
++++ .idea/vcs.xml	(date 1597114588837)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/codenigga_list.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/codenigga_list.iml	(date 1597114837443)
++++ .idea/codenigga_list.iml	(date 1597114837443)
+@@ -0,0 +1,12 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="PYTHON_MODULE" version="4">
++  <component name="NewModuleRootManager">
++    <content url="file://$MODULE_DIR$" />
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++  <component name="PyDocumentationSettings">
++    <option name="format" value="PLAIN" />
++    <option name="myDocStringFormat" value="Plain" />
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/misc.xml	(date 1597114837482)
++++ .idea/misc.xml	(date 1597114837482)
+@@ -0,0 +1,7 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.8 (codenigga_list)" project-jdk-type="Python SDK" />
++  <component name="PyCharmProfessionalAdvertiser">
++    <option name="shown" value="true" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/modules.xml	(date 1597114849063)
++++ .idea/modules.xml	(date 1597114849063)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/codenigga_list.iml" filepath="$PROJECT_DIR$/.idea/codenigga_list.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/inspectionProfiles/profiles_settings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/inspectionProfiles/profiles_settings.xml	(date 1597114849129)
++++ .idea/inspectionProfiles/profiles_settings.xml	(date 1597114849129)
+@@ -0,0 +1,6 @@
++<component name="InspectionProjectProfileManager">
++  <settings>
++    <option name="USE_PROJECT_PROFILE" value="false" />
++    <version value="1.0" />
++  </settings>
++</component>
+\ No newline at end of file
